@@ -1,0 +1,28 @@
+body{
+margin: auto 0;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btn{
+    height: 44px;
+    width: 420px;
+    text-align: center;
+    margin: auto 0;
+    cursor: pointer;
+    background-color: tomato;
+    color: white;
+    border:none;
+    outline: inherit !important;
+    box-shadow: 1px 4px 12px #7c7c7c;
+    border-radius: 4px;
+
+}
+
+button:active { 
+    background-color: rgb(207, 34, 3);
+}

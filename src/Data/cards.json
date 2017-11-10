@@ -1,0 +1,70 @@
+{
+    "cards":[
+
+            {
+                "id":1,
+                "question": "Bobs father has 4 children. Momo, Meme, and Mumu are three of them. Who’s the fourth?",
+                "answer": "Bob"
+            },
+            {
+                "id":2,
+                "question": "I have three apples. If you take away two from me, how many do you have?",
+                "answer": "2"
+            },
+            {
+                "id":3,
+                "question": "What breaks and never falls and what falls and never breaks?",
+                "answer": "Day breaks and night falls."
+            },
+            {
+                "id":4,
+                "question": "You have a match and you enter a wagon with a candle, a lamp and a fireplace. Which one do you light first?",
+                "answer": "Your match."
+            },
+            {
+                "id":5,
+                "question": "A family lived in a round hut. The father came back from work and found the mother dead. The first said he was watching television, the second said he was drawing,the third one said he was reading in a corner. Who did it?",
+                "answer": "The youngest, because it’s a ROUND hut, no corners!"
+            },
+            {
+                "id":6,
+                "question": "A farmer had 752 sheep and took one shot that got them all. How did he do it?",
+                "answer": "He took a panoramic view!"
+            },
+            {
+                "id":7,
+                "question": "Which letter of the English alphabet flies, sings, and stings?",
+                "answer": "‘B’ (bee)."
+            },
+            {
+                "id":8,
+                "question": "Complete the series. 9 = 4, 21 = 9, 22 = 9, 24 = 10, 8 = 5, 7 = 5, 99 = 10, 100 = 7, 16 = ?, 17 =?",
+                "answer": "16 = 7 and 17 = 9 [The number of letters in the spelling of 16 (sixteen) is 7 and that of 17 (seventeen) is 9]"
+            },
+            {
+                "id":9,
+                "question": "Name all the numbers from 1 – 100, which have the letter ‘A’ in their spellings?",
+                "answer": "None!"
+            },
+            {
+                "id":10,
+                "question": "It took 20,000 workers to build the Taj Mahal in 20 years. How many workers would be required to build it in 10 years?",
+                "answer": "Sorry, the Taj Mahal cannot be built again."
+            },
+            {
+                "id":11,
+                "question": "My neighbor Bob is a blacksmith. He is 45 years old, 7 ft. tall, and eats all the time. Guess what does he weigh?",
+                "answer": "Iron"
+            },
+            {
+                "id":12,
+                "question": "You have 20 apples in a basket. 20 children come to you and each one of them ask for an apple. You want to give all the apples to each one of them, but still keep one inside the basket? How will you do it?",
+                "answer": "Give all the 19 apples to each one of them and give the basket to the last child with the apple still inside it."
+            },
+            {
+                "id":13,
+                "question": "How many sides does a circle have?",
+                "answer": "Two. An inside and an outside."
+            }
+    ]
+}
