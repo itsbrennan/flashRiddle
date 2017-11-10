@@ -6,7 +6,6 @@ import {DB_CONFIG} from './Config/Firebase/db_config';
 import firebase from 'firebase/app';
 import 'firebase/database';
 
-
 class App extends Component {
   
   constructor (props){
