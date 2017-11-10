@@ -15,7 +15,8 @@ class DrawButton extends Component{
     render(props){
         return(
             <div className = "buttonContainer">
-                <button className="btn" onClick={this.drawCard}>Draw Card</button>
+                <h4> Hover to see answer</h4>
+                <button className="btn" onClick={this.drawCard}>Next Card</button>
             </div>
         )
     }

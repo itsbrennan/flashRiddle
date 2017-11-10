@@ -21,25 +21,29 @@ class App extends Component {
       currentCard: {}
 
     }
-
   }
   
+
   componentWillMount(){
+    
+    //asign cards array as variable
     const currentCards = this.state.cards;
     
       this.database.on('child_added', snap =>{
         currentCards.push({
-          id: snap.key,
+          id: snap.val().id,
           question: snap.val().question,
           answer: snap.val().answer,
         })
+
+        // set array to the random deck and pull a card from it 
         this.setState({
           cards: currentCards,
           currentCard: this.getRandomCard(currentCards)
       })
     })
   }
-  
+  // function to pull a single card from random array of cards.
   getRandomCard(currentCards){
     let card = currentCards[Math.floor(Math.random()*currentCards.length)]
     return(card);
@@ -52,18 +56,20 @@ class App extends Component {
     })
   }
 
+// laying out the front end.
   render() {
     return (
       <div className="App">
         <div className = "cardRow">  
         
-          <Card question={this.state.currentCard.question}
+          <Card question = {this.state.currentCard.question +" "+ this.state.currentCard.id +" / " + this.state.cards.length}
+                pagination = {this.state.currentCard.id}
                 answer = {this.state.currentCard.answer}
                 />
+
         </div>
         <div className = "buttonRow">
             <DrawButton drawCard = {this.updateCard}/>
-            
         </div>
       </div>
     );

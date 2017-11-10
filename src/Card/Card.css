@@ -10,6 +10,9 @@
     display: flex;
     justify-content: center;
 }
+.pagination{
+    color: gray;
+}
 
 .card{
     height:220px;
@@ -44,7 +47,6 @@
     background-color: rgb(255, 255, 255);
     color:tomato;
     border-radius: 4px;
-
 
 }
 
